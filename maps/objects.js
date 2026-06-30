@@ -43,7 +43,7 @@ addNewKVPair.two = 2
 //
 //	Get the age of 'getPatientAge' and save the result into 'patientAge'
 let getPatientAge = {
-	name: "John Nnamchi",
+	name: "Charles Abonyi",
 	age: generateRandomNumber(18, 30),
 	pastConditions: [ "fever", "headache" ]
 }
@@ -62,15 +62,15 @@ let patientAge = getPatientAge.age
 //
 //	The 'patient' object needs to be kept up to date.
 let patient = {
-	name: "John Nnamchi",
+	name: "Charles Abonyi",
 	age: generateRandomNumber(18, 30),
 	pastConditions: [ "fever", "headache" ],
 	hobbies: [ "TV", "Frisbee" ]
 }
 //	Since the last entry:
-//	- John is now one year older
-//	- John got a case of "vomiting"
-//	- John has stopped watching TV
+//	- Charles is now one year older
+//	- Charles got a case of "vomiting"
+//	- Charles has stopped watching TV
 //	Edit the patient object to reflect these new changes
 //
 //	NOTE: The below 'patientCopy' is required for checking your work due
@@ -112,11 +112,11 @@ let containsHobbies = "hobbies" in checkContains
 //	Get the list of keys in 'sortMyKeys' and save the result
 //	into 'sortedKeys' as an array of keys, then sort 'sortedKeys' alphabetically
 let sortMyKeys = {
-	name: "John Nnamchi",
-	age: 23,
+	name: "Charles Abonyi",
+	age: 24,
 	pastConditions: [ "fever", "headache" ],
 	hobbies: [ "TV", "Frisbee" ],
-	born: new Date("20/07/1996"),
+	born: new Date("02/02/2002"),
 	isNewPatient: false,
 	height: 183,
 	weight: 80,
@@ -138,11 +138,11 @@ let sortedKeys = Object.keys(sortMyKeys).sort()
 //	Remove all keys from 'clearMe' so that it no longer has any keys
 //	and looks like {}
 let clearMe = {
-	name: "John Nnamchi",
-	age: 23,
+	name: "Charles Abonyi",
+	age: 24,
 	pastConditions: [ "fever", "headache" ],
 	hobbies: [ "TV", "Frisbee" ],
-	born: new Date("20/07/1996"),
+	born: new Date("02/02/2002"),
 	isNewPatient: false,
 	height: 183,
 	weight: 80,
@@ -201,7 +201,7 @@ let ICUWard = {
 				age: 43,
 			},
 			{
-				name: "John Nnamchi",
+				name: "Charles Abonyi",
 				age: 24,
 			},
 			{
