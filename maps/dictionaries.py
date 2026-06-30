@@ -11,8 +11,8 @@
 ###################### YOUR CODE BELOW THIS LINE #######################
 
 newDict = {
-	"key": "value",
-}
+	"key": "value"
+	}
 
 ########################################################################
 
@@ -26,7 +26,7 @@ newDict = {
 #  and day.
 import random
 getMyAge = {
-	"name": "John Nnamchi",
+	"name": "Charles Abonyi",
 	"DOB": {
 		"year": random.randint(1960, 2005),
 		"month": random.randint(1, 12),
